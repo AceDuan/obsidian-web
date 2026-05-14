@@ -14,7 +14,7 @@ concurrency:
 
 jobs:
   sync:
-    runs-on: ubuntulatest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Sync fork with upstream
